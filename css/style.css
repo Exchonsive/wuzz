@@ -1,0 +1,74 @@
+#map {
+  height: 300px;
+}
+
+h2 {
+  color: rgb(35, 123, 255);
+}
+h4 {
+  color: rgb(35, 123, 255);
+}
+/* Gaya latar belakang navbar saat dalam keadaan normal */
+.navbar {
+  background-color: rgb(255, 255, 255);
+  /* Warna hitam dengan opacity 0.3 */
+  transition: background-color 0.3s;
+  /* Efek transisi warna selama 0.3 detik */
+}
+
+/* Gaya teks dalam navbar */
+.navbar .nav-link {
+  color: rgb(61, 77, 169);
+
+  /* Warna teks putih */
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: rgba(35, 123, 255, 0.423);
+}
+
+/* Gaya latar belakang navbar saat digulir */
+.navbar.scrolled {
+  background-color: #00000063;
+  /* Warna hitam solid saat digulir */
+}
+
+.carousel-item img {
+  filter: brightness(0.5);
+  max-height: 980px;
+}
+
+/* Styling the carousel container */
+#carouselExampleAutoplaying {
+  overflow: hidden;
+  position: relative;
+}
+
+/* Styling the carousel images */
+.carousel-inner .carousel-item img {
+  width: 100%;
+  height: auto;
+  transform: translate3d(0, 0, 0); /* Reset transform */
+  transition: transform 0.5s ease-in-out;
+}
+.big-icon {
+  font-size: 50px; /* Atur sesuai dengan ukuran yang diinginkan */
+  color: rgb(35, 123, 255);
+}
+/* Style khusus footer */
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: rgb(35, 123, 255);
+  margin-top: 10%;
+}
+
+.footer p {
+  line-height: 60px;
+  margin-bottom: 0;
+  text-align: center;
+  color: aliceblue;
+}
